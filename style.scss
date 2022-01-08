@@ -1,0 +1,24 @@
+@import 'sass/abstract/variables';
+
+@function somar($v1, $v2) {
+    $result: $v1+$v2;
+    @return $result;
+  }
+
+ @mixin bloco-estilo{
+    background-color: indigo;
+    border-style: solid;
+ } 
+  
+
+body {
+    background-color: $corPrincipal;
+    margin:somar(5,5)  * 1px;
+}
+
+div{
+    @include bloco-estilo ;  
+    p{
+        color: darkgoldenrod;
+    }
+}

@@ -1,0 +1,14 @@
+body {
+  background-color: green;
+  margin: 10px;
+}
+
+div {
+  background-color: indigo;
+  border-style: solid;
+}
+div p {
+  color: darkgoldenrod;
+}
+
+/*# sourceMappingURL=style.css.map */
